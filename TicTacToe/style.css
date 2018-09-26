@@ -1,0 +1,54 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+}
+
+body { 
+  padding:25px; 
+  margin: 0 25px; 
+  margin-top: 25px; 
+}
+
+#board tr td { 
+  width: 150px; 
+  height: 150px; 
+  border: 3px solid #1c1c1c; 
+  font-family: Helvetica; 
+  font-size: 75px; 
+  text-align: center; 
+}
+ 
+#board tr td:hover { 
+  background: #e4e4e4; 
+  cursor: pointer; 
+}
+
+div.scores{
+  width: auto;
+  border: 5px solid blue;
+  padding: 5px;
+  margin: 20px;
+  margin-right: 650px;
+  float: right;
+  font-family: calibri;
+  line-height: 1.5;
+}
+table.score{
+  width: auto;
+  height:50px;
+  padding: 2px;
+  border: 1px solid green; 
+  font-family: Helvetica; 
+  font-size: 9px;   
+  text-align: center; 
+}
+
+tr td{
+  padding: 2px;
+  border: 1px solid green; 
+}
